@@ -15,7 +15,7 @@ function checkImage(url: any) {
 }
 
 const Profile = ({ type, name, avatar, email, properties, isMobile }: ProfileProps) => (
-    <Box sx={{paddingLeft: {isMobile} ? "66px" : "5px" }}>
+    <Box sx={{paddingLeft: isMobile? "66px":"5px" }}>
         <Typography fontSize={25} fontWeight={700} sx={{color:"primary.dark"}}>
             {type} Profile
         </Typography>
