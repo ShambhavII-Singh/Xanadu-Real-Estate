@@ -17,19 +17,19 @@ const Home = () => {
   const satisfied = Math.random();
   const urban = Math.random();
   const isMobile = useMediaQuery('(max-width: 900px)');
-    // const { data, isLoading, isError } = useList({
-    //     resource: "properties",
-    //     config: {
-    //         pagination: {
-    //             pageSize: 4,
-    //         },
-    //     },
-    // });
+  const { data, isLoading, isError } = useList({
+      resource: "properties",
+      config: {
+          pagination: {
+              pageSize: 3,
+          },
+      },
+  });
 
-    // const latestProperties = data?.data ?? [];
+  const latestProperties = data?.data ?? [];
 
-    // if (isLoading) return <Typography>Loading...</Typography>;
-    // if (isError) return <Typography>Something went wrong!</Typography>;
+  if (isLoading) return <Typography>Loading...</Typography>;
+  if (isError) return <Typography>Something went wrong!</Typography>;
 
   return (
     <Box sx={{paddingLeft: isMobile ? "61px" : 0}}>
@@ -95,10 +95,19 @@ const Home = () => {
         </Typography>
 
         <Box
-          mt={2.5}
-          sx={{ display: "flex", flexWrap: "wrap", gap: 4 }}
+            mt={2.5}
+            sx={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-around"}}
         >
-            
+            {latestProperties.map((property) => (
+                  <PropertyCard
+                      key={property._id}
+                      id={property._id}
+                      title={property.title}
+                      location={property.location}
+                      price={property.price}
+                      photo={property.photo}
+                  />
+            ))}
         </Box>
       </Box>
     </Box>
