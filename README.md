@@ -21,4 +21,7 @@ This is a Fullstack MERN application that uses TypeScript with MaterialUI compon
 - Star rating on each property based on its ratings
 - Role Based Access Control (RBAC) where an admin might be incharge of several agents and may control sales (roles need to be fialized)
 - Implementation of messaging system where the property agent gets a message if someone shows interest in a property (by pressing call button on the property details page)
-- Implementation of bookmarks for properties a user is interested in and a deal notification system 
+- Implementation of bookmarks for properties a user is interested in and a deal notification system
+
+## Tech Stack
+MongoDB | ExpressJS | ReactJS | NodeJS | REST APIs | Refine v4 | HTML | CSS | JavaScript | GoogleAuth | Cloudinary | API calls | Figma
