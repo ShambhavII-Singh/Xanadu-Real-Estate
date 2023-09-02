@@ -60,5 +60,5 @@ MongoDB | ExpressJS | ReactJS | NodeJS | REST APIs | Refine v4 | HTML | CSS | Ja
 | info.light | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 | info.dark | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
-
-
+## Deployment
+https://xanadu-real-estate.vercel.app/
