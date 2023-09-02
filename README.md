@@ -25,3 +25,7 @@ This is a Fullstack MERN application that uses TypeScript with MaterialUI compon
 
 ## Tech Stack
 MongoDB | ExpressJS | ReactJS | NodeJS | REST APIs | Refine v4 | HTML | CSS | JavaScript | GoogleAuth | Cloudinary | API calls | Figma
+
+## Acknowlegments
+- [Refine v4](https://refine.dev/docs/) (refine is a versatile React framework that enables the rapid development of a wide range of web applications. From internal tools, admin panels, B2B apps and dashboards, it serves as a comprehensive solution for building any type of CRUD applications)
+- [ApexCharts](https://apexcharts.com/docs/installation/#) for React
