@@ -45,4 +45,20 @@ MongoDB | ExpressJS | ReactJS | NodeJS | REST APIs | Refine v4 | HTML | CSS | Ja
 | info.light | ![#c2c2c2](https://via.placeholder.com/10/c2c2c2?text=+) #c2c2c2 |
 | info.dark | ![#c2c2c2](https://via.placeholder.com/10/c2c2c2?text=+) #c2c2c2 |
 
+## Color Reference (Dark Theme)
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| primary.main | ![#38b000](https://via.placeholder.com/10/38b000?text=+) #38b000 |
+| primary.dark | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| primary.light | ![#194D19](https://via.placeholder.com/10/194D19?text=+) #194D19 |
+| background.default | ![#121511](https://via.placeholder.com/10/121511?text=+) #121511 |
+| background.paper | ![#232F20](https://via.placeholder.com/10/232F20?text=+) #232F20 |
+| text.primary | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| text.secondary | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| info.main | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| info.light | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| info.dark | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+
+
 
