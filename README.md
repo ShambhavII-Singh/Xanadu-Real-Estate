@@ -29,3 +29,20 @@ MongoDB | ExpressJS | ReactJS | NodeJS | REST APIs | Refine v4 | HTML | CSS | Ja
 ## Acknowlegments
 - [Refine v4](https://refine.dev/docs/) (refine is a versatile React framework that enables the rapid development of a wide range of web applications. From internal tools, admin panels, B2B apps and dashboards, it serves as a comprehensive solution for building any type of CRUD applications)
 - [ApexCharts](https://apexcharts.com/docs/installation/#) for React
+
+## Color Reference (Light Theme)
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| primary.main | ![#38b000](https://via.placeholder.com/10/38b000?text=+) #38b000 |
+| primary.dark | ![#002913](https://via.placeholder.com/10/002913?text=+) #002913 |
+| primary.light | ![#E7FFDD](https://via.placeholder.com/10/E7FFDD?text=+) #E7FFDD |
+| background.default | ![#F4F4F4](https://via.placeholder.com/10/F4F4F4?text=+) #F4F4F4 |
+| background.paper | ![#FCFCFC](https://via.placeholder.com/10/FCFCFC?text=+) #FCFCFC |
+| text.primary | ![#626262](https://via.placeholder.com/10/626262?text=+) #626262 |
+| text.secondary | ![#808191](https://via.placeholder.com/10/808191?text=+) #808191 |
+| info.main | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| info.light | ![#c2c2c2](https://via.placeholder.com/10/c2c2c2?text=+) #c2c2c2 |
+| info.dark | ![#c2c2c2](https://via.placeholder.com/10/c2c2c2?text=+) #c2c2c2 |
+
+
